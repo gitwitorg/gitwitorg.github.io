@@ -1,0 +1,78 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "organisation",
+        "role": "owner",
+        "name": "GitWit, Inc.",
+        "email": "support@gitwit.dev",
+        "phone": "",
+        "description": "GitWit is an open-source cloud-based code editing environment with custom AI code generation, live preview, real-time collaboration, and AI chat capabilities. We're committed to building powerful, accessible development tools for the community.",
+        "webpageUrl": {
+            "url": "https://gitwit.dev"
+        }
+    },
+    "projects": [{
+        "guid": "GitWit",
+        "name": "GitWit",
+        "description": "GitWit is an open-source cloud-based code editing environment with custom AI code generation, live preview, real-time collaboration, and AI chat. It provides developers with a modern, collaborative development environment powered by advanced AI capabilities.",
+        "webpageUrl": {
+            "url": "https://gitwit.dev"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/jamesmurdza/sandbox"
+        },
+        "licenses": ["spdx:MIT"],
+        "tags": ["developer-tools", "code-editor", "ai", "collaboration", "cloud-ide"]
+    }],
+    "funding": {
+        "channels": [{
+            "guid": "github-sponsors",
+            "type": "payment-provider",
+            "address": "https://github.com/sponsors/jamesmurdza",
+            "description": "Support GitWit development through GitHub Sponsors"
+        }],
+        "plans": [{
+            "guid": "infrastructure-monthly",
+            "status": "active",
+            "name": "Infrastructure Support",
+            "description": "Help cover our cloud infrastructure costs including AWS, Cloudflare, and other services needed to run GitWit.",
+            "amount": 0,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["github-sponsors"]
+        },
+        {
+            "guid": "ai-costs-monthly",
+            "status": "active",
+            "name": "AI Service Support",
+            "description": "Support our AI infrastructure costs including Claude API usage for code generation and assistance.",
+            "amount": 0,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["github-sponsors"]
+        },
+        {
+            "guid": "developer-monthly",
+            "status": "active",
+            "name": "Developer Support",
+            "description": "Fund a developer working part-time on maintaining and improving GitWit.",
+            "amount": 0,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["github-sponsors"]
+        },
+        {
+            "guid": "community-support",
+            "status": "active",
+            "name": "Community Support",
+            "description": "Any amount you wish to contribute to show your support for GitWit.",
+            "amount": 0,
+            "currency": "USD",
+            "frequency": "one-time",
+            "channels": ["github-sponsors"]
+        }],
+
+        "history": []
+        
+    }
+} 
